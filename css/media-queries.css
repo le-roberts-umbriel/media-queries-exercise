@@ -78,7 +78,16 @@ ul li{
 footer{
     display: flex;
     width: 100%;
-    justify-content: left;
+    justify-content: space-between;
+}
+
+#social-media-links{
+  margin-top: 1em;
+}
+
+i{
+    padding: 0;
+    margin: 0;
 }
 
 .hidden-on-desktop{
