@@ -30,30 +30,23 @@ h1{
     margin: 0;
 }
 
-nav{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
 ul{
     display: flex;
     width: 100%;
-    padding: 0;
+    padding: 2em;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
     list-style: none;
 }
 
 ul li{
-    display: block;
+    display: flex;
     background: lightgray;
     width: 100%;
+    justify-content: center;
     text-align: center;
-    margin: 0;
+    margin: 3px;
     height: 3em;
-    padding: 2em 0 0 0;
+    padding: 1.6em 0 0 0;
 }
 
 .header-img{
@@ -102,20 +95,22 @@ font-size: 2.5em;
     text-align: left;
 }
 
-nav {
+.nav-links {
     display: flex;
     flex-direction: row;
     width: 50%;
+    padding: 2px;
 }
 
 ul{
     flex-direction: row;
 }
 
-ul li{
-    display: inline;
-    background: none;
-}
+    ul li{
+        display: inline;
+        background: none;
+    }
+
 .main{
     width: 60%;
     margin: 0;
